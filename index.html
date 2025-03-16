@@ -28,6 +28,11 @@
 <script>
     const header = document.getElementById('main-header');
     alert(header.innerText);
+
+    const nudy = document.querySelectorAll("#app .boring");
+    nudy.forEach(element => {
+        alert(`Nuda: ${element.innerText}`);
+        element.classList.remove('boring');
 </script>
 </body>
 </html>
